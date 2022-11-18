@@ -15,8 +15,8 @@
     android:text="앱 이름"/>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_gravity="center"
         android:src="@drawable/logo"
         android:scaleType="centerInside"/>
@@ -38,7 +38,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="이메일 양식"/>
+            android:hint="이메일 양식"
+            android:inputType="textEmailAddress"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -49,7 +50,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="비밀번호 입력"/>
+            android:hint="비밀번호 입력"
+            android:inputType="textPassword"/>
 
         <CheckBox
             android:layout_width="wrap_content"
